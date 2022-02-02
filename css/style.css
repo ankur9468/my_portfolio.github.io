@@ -8,6 +8,15 @@
     --secondry:#070606;
 
 }
+#preloader img{
+    display: block;
+    margin:auto;
+    position: relative;
+    top: 35%;
+    align-items: center;
+    
+     
+}
 #foot-logo{
     width: 300px;
     padding:0 4rem;
