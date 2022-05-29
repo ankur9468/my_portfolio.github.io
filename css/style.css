@@ -8,7 +8,7 @@
     --secondry:#070606;
 
 }
-#preloader img{
+#preloader img{ 
     display: block;
     margin:auto;
     position: relative;
@@ -598,7 +598,7 @@ footer{
     
  
 section.certificates{
-    height: 42rem;
+    height: 50rem;
 }
     section.certificates .card-wrapper{
         grid-template-columns: repeat(1,1fr);
