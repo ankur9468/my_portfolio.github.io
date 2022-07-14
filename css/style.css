@@ -94,8 +94,8 @@ header nav .branding{
     padding: 0 3rem;
 }
 .hero .left img{
- width: 400px;
-
+    height: 798px;
+    width: 700px;
 }
 .hero .right{
     margin-top: -7rem;
@@ -609,6 +609,14 @@ section.certificates{
     }
 }
 
+ 
+@media (max-width: 1080px)
+.hero .left img {
+    height: 887px;
+    border-radius: 557%;
+    width: 339px;
+    /* left: 19px; */
+}
 @media(max-width:576px){
     .hero{
         flex-direction: column;
@@ -627,6 +635,12 @@ section.certificates{
         margin-top: -5rem;
         margin-right: -9rem;
     }
+    .hero .left img {
+    height: 482px;
+    border-radius: 557%;
+    width: 360px;
+    /* left: 19px; */
+}
     .about-inner-wrap{
         flex-direction: column;
     }
